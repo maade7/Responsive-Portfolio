@@ -23,7 +23,6 @@ body {
 header {
     width: 100%;
     clear: both;
-    overflow: auto;
     margin-bottom: 50px;
     float: left;
 }
@@ -272,13 +271,7 @@ a:hover {
         border-bottom: 5px solid #777777;
         height: 136px;
     }
-    header {
-        position: relative;
-        top: 0px;
-        right: 10%;
-        width: 120%;
-        clear: both;
-    }
+
     .navbar {
         width: 90%;
         display: inline-flex;
@@ -294,7 +287,9 @@ a:hover {
     }
     h1 {
         padding: 25px 0px 25px 0px;
-        width: 100%;
+        position: relative;
+        right: 6%;
+        width: 112%;
         margin: 0px;
         clear: both;
         text-align: center;
